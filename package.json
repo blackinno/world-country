@@ -1,0 +1,30 @@
+{
+  "name": "world-country",
+  "version": "1.0.0",
+  "description": "Dial code, country, iso code",
+  "main": "src/index.js",
+  "bin": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blackinno/world-country.git"
+  },
+  "keywords": [
+    "country",
+    "code",
+    "country",
+    "phone",
+    "code",
+    "world",
+    "wild",
+    "code"
+  ],
+  "author": "Thotsaphon Ben Ruthamnong",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/blackinno/world-country/issues"
+  },
+  "homepage": "https://github.com/blackinno/world-country#readme"
+}

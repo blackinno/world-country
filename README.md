@@ -1,8 +1,9 @@
 # world-country
-[![Test](https://github.com/blackinno/world-country/actions/workflows/test.yml/badge.svg)
-[![Linter](https://github.com/blackinno/world-country/actions/workflows/linter.yml/badge.svg)
-[![Security](https://github.com/blackinno/world-country/actions/workflows/security.yml/badge.svg)
+[![Test](https://github.com/blackinno/world-country/actions/workflows/test.yml/badge.svg)](https://github.com/blackinno/world-country/actions/workflows/test.yml/badge.svg)
+[![Linter](https://github.com/blackinno/world-country/actions/workflows/linter.yml/badge.svg)](https://github.com/blackinno/world-country/actions/workflows/linter.yml/badge.svg)
+[![Security](https://github.com/blackinno/world-country/actions/workflows/security.yml/badge.svg)](https://github.com/blackinno/world-country/actions/workflows/security.yml/badge.svg)
 [![codecov](https://codecov.io/gh/blackinno/world-country/graph/badge.svg?token=HGJS8SS5OP)](https://codecov.io/gh/blackinno/world-country)
+
 A TypeScript library for working with country data including dial codes, country names, and ISO codes. This library provides a simple and efficient way to access and search country information.
 
 ## Features

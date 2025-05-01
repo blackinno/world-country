@@ -22,7 +22,7 @@ const countries: Country[] = [
     code: 'DZ',
   },
   {
-    name: 'AmericanSamoa',
+    name: 'American Samoa',
     dial_code: '+1684',
     code: 'AS',
   },

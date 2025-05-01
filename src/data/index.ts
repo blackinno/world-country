@@ -1,4 +1,6 @@
-module.exports = [
+import { Country } from '../types'
+
+const countries: Country[] = [
   {
     name: 'Afghanistan',
     dial_code: '+93',
@@ -1225,3 +1227,5 @@ module.exports = [
     code: 'ZW'
   }
 ]
+
+export default countries

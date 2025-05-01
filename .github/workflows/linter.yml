@@ -1,0 +1,26 @@
+name: Validate Linter Pipeline
+
+on:
+  pull_request:
+
+jobs:
+  build:
+    timeout-minutes: 30
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [18.x, 20.x]
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run validate linter
+        run: npm run lint
+
+      - name: Run validate format
+        run: npm run format:check

@@ -5,7 +5,7 @@ import {
   findByDialCode,
   findByMultipleCode,
   findByMultipleDialCode,
-  findByMultipleName
+  findByMultipleName,
 } from '../src'
 
 describe('world-country', () => {
@@ -24,7 +24,7 @@ describe('world-country', () => {
       expect(usa).toEqual({
         name: 'United States',
         dial_code: '+1',
-        code: 'US'
+        code: 'US',
       })
     })
 
@@ -40,7 +40,7 @@ describe('world-country', () => {
       expect(japan).toEqual({
         name: 'Japan',
         dial_code: '+81',
-        code: 'JP'
+        code: 'JP',
       })
     })
 

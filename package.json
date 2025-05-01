@@ -1,11 +1,15 @@
 {
   "name": "world-country",
   "version": "1.0.0",
-  "description": "Dial code, country, iso code",
-  "main": "src/index.js",
-  "bin": "src/index.js",
+  "description": "A TypeScript library for working with country data including dial codes, country names, and ISO codes",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "type-check": "tsc --noEmit",
+    "test": "jest",
+    "test:watch": "jest --watch"
   },
   "repository": {
     "type": "git",
@@ -21,10 +25,17 @@
     "wild",
     "code"
   ],
-  "author": "Thotsaphon Ben Ruthamnong",
+  "author": "Thotsaphon Ben Ruthamnong<r.thotsaphon@hotmail.co.th>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/blackinno/world-country/issues"
   },
-  "homepage": "https://github.com/blackinno/world-country#readme"
+  "homepage": "https://github.com/blackinno/world-country#readme",
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "@types/node": "^22.15.3",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.2",
+    "typescript": "^5.8.3"
+  }
 }
